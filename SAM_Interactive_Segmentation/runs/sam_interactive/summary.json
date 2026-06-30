@@ -1,0 +1,83 @@
+[
+  {
+    "mode": "point",
+    "mask_index": 0,
+    "score": 0.9510905742645264,
+    "area_pixels": 104586,
+    "is_best": true,
+    "mask_path": "runs/sam_interactive/point_mask_0.png",
+    "overlay_path": "runs/sam_interactive/point_overlay_0.png"
+  },
+  {
+    "mode": "point",
+    "mask_index": 1,
+    "score": 0.9170548319816589,
+    "area_pixels": 20561,
+    "is_best": false,
+    "mask_path": "runs/sam_interactive/point_mask_1.png",
+    "overlay_path": "runs/sam_interactive/point_overlay_1.png"
+  },
+  {
+    "mode": "point",
+    "mask_index": 2,
+    "score": 0.8618794679641724,
+    "area_pixels": 17300,
+    "is_best": false,
+    "mask_path": "runs/sam_interactive/point_mask_2.png",
+    "overlay_path": "runs/sam_interactive/point_overlay_2.png"
+  },
+  {
+    "mode": "box",
+    "mask_index": 0,
+    "score": 0.8537948727607727,
+    "area_pixels": 78707,
+    "is_best": true,
+    "mask_path": "runs/sam_interactive/box_mask_0.png",
+    "overlay_path": "runs/sam_interactive/box_overlay_0.png"
+  },
+  {
+    "mode": "box",
+    "mask_index": 1,
+    "score": 0.8523382544517517,
+    "area_pixels": 28007,
+    "is_best": false,
+    "mask_path": "runs/sam_interactive/box_mask_1.png",
+    "overlay_path": "runs/sam_interactive/box_overlay_1.png"
+  },
+  {
+    "mode": "box",
+    "mask_index": 2,
+    "score": 0.8534687757492065,
+    "area_pixels": 26488,
+    "is_best": false,
+    "mask_path": "runs/sam_interactive/box_mask_2.png",
+    "overlay_path": "runs/sam_interactive/box_overlay_2.png"
+  },
+  {
+    "mode": "point_box",
+    "mask_index": 0,
+    "score": 0.9104025363922119,
+    "area_pixels": 55596,
+    "is_best": false,
+    "mask_path": "runs/sam_interactive/point_box_mask_0.png",
+    "overlay_path": "runs/sam_interactive/point_box_overlay_0.png"
+  },
+  {
+    "mode": "point_box",
+    "mask_index": 1,
+    "score": 0.9330410957336426,
+    "area_pixels": 19936,
+    "is_best": true,
+    "mask_path": "runs/sam_interactive/point_box_mask_1.png",
+    "overlay_path": "runs/sam_interactive/point_box_overlay_1.png"
+  },
+  {
+    "mode": "point_box",
+    "mask_index": 2,
+    "score": 0.9250050783157349,
+    "area_pixels": 18498,
+    "is_best": false,
+    "mask_path": "runs/sam_interactive/point_box_mask_2.png",
+    "overlay_path": "runs/sam_interactive/point_box_overlay_2.png"
+  }
+]

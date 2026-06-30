@@ -1,0 +1,27 @@
+{
+  "image": "/workspace/project/Computer_Vision/SAM_Interactive_Segmentation/600344.JPG",
+  "image_shape": [
+    481,
+    721,
+    3
+  ],
+  "checkpoint": "checkpoints/sam_vit_b_01ec64.pth",
+  "model_type": "vit_b",
+  "points": [
+    [
+      320.0,
+      240.0
+    ]
+  ],
+  "point_labels": [
+    1
+  ],
+  "box": [
+    120.0,
+    80.0,
+    520.0,
+    430.0
+  ],
+  "mode": "all",
+  "single_mask": false
+}

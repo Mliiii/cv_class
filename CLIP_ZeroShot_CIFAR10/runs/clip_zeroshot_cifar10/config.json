@@ -1,0 +1,38 @@
+{
+  "data_dir": "/datasets/cifar-10-batches-py",
+  "output_dir": "./runs/clip_zeroshot_cifar10",
+  "model": "ViT-B-32",
+  "pretrained": "openai",
+  "checkpoint": "",
+  "allow_download": false,
+  "split": "test",
+  "samples_per_class": 100,
+  "batch_size": 128,
+  "workers": 2,
+  "failure_examples": 20,
+  "seed": 42,
+  "device": "cuda",
+  "dry_run": false,
+  "resolved_data_root": "/datasets",
+  "classes": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "prompt_templates": [
+    "a photo of the {}.",
+    "a small photo of the {}.",
+    "a blurry photo of the {}.",
+    "a cropped photo of the {}.",
+    "a low resolution photo of the {}.",
+    "a photo of one {}.",
+    "a close-up photo of the {}."
+  ]
+}

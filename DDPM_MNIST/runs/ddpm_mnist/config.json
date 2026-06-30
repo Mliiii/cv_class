@@ -1,0 +1,16 @@
+{
+  "data_root": "/workspace/project/datasets/data/MNIST",
+  "output_dir": "./runs/ddpm_mnist",
+  "epochs": 50,
+  "batch_size": 128,
+  "workers": 2,
+  "base_channels": 64,
+  "timesteps": 300,
+  "lr": 0.0002,
+  "sample_every": 1,
+  "fid_samples": 5000,
+  "fid_classifier_epochs": 3,
+  "skip_fid": false,
+  "seed": 42,
+  "device": "cuda"
+}

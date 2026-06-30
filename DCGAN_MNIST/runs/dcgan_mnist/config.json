@@ -1,0 +1,18 @@
+{
+  "data_root": "/workspace/project/datasets/data/MNIST",
+  "output_dir": "./runs/dcgan_mnist",
+  "epochs": 50,
+  "batch_size": 128,
+  "workers": 2,
+  "latent_dim": 100,
+  "g_features": 64,
+  "d_features": 64,
+  "lr": 0.0002,
+  "beta1": 0.5,
+  "sample_every": 1,
+  "fid_samples": 5000,
+  "fid_classifier_epochs": 3,
+  "skip_fid": false,
+  "seed": 42,
+  "device": "cuda"
+}
