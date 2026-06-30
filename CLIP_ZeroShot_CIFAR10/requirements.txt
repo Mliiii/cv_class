@@ -1,0 +1,6 @@
+torch>=1.13
+torchvision>=0.14
+open_clip_torch>=2.20
+matplotlib>=3.5
+pillow>=9.0
+numpy>=1.21

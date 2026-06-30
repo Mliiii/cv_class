@@ -1,0 +1,61 @@
+  --epochs 50 \
+  --timesteps 300 \
+  --fid-samples 5000
+Using device: cuda
+MNIST root for torchvision: /workspace/project/datasets/data
+Training samples: 60000
+Diffusion timesteps: 300
+Epoch 001/50 loss=0.0994 time=63.1s
+Epoch 002/50 loss=0.0534 time=48.6s
+Epoch 003/50 loss=0.0475 time=50.2s
+Epoch 004/50 loss=0.0454 time=49.7s
+Epoch 005/50 loss=0.0440 time=49.8s
+Epoch 006/50 loss=0.0430 time=56.0s
+Epoch 007/50 loss=0.0424 time=55.4s
+Epoch 008/50 loss=0.0416 time=50.2s
+Epoch 009/50 loss=0.0415 time=51.9s
+Epoch 010/50 loss=0.0408 time=52.9s
+Epoch 011/50 loss=0.0406 time=50.7s
+Epoch 012/50 loss=0.0404 time=49.5s
+Epoch 013/50 loss=0.0400 time=52.9s
+Epoch 014/50 loss=0.0399 time=51.2s
+Epoch 015/50 loss=0.0397 time=51.7s
+Epoch 016/50 loss=0.0397 time=49.7s
+Epoch 017/50 loss=0.0394 time=50.6s
+Epoch 018/50 loss=0.0393 time=53.3s
+Epoch 019/50 loss=0.0394 time=49.9s
+Epoch 020/50 loss=0.0391 time=51.7s
+Epoch 021/50 loss=0.0388 time=49.8s
+Epoch 022/50 loss=0.0390 time=48.4s
+Epoch 023/50 loss=0.0388 time=49.1s
+Epoch 024/50 loss=0.0389 time=50.2s
+Epoch 025/50 loss=0.0385 time=53.8s
+Epoch 026/50 loss=0.0385 time=53.5s
+Epoch 027/50 loss=0.0384 time=47.4s
+Epoch 028/50 loss=0.0383 time=49.3s
+Epoch 029/50 loss=0.0381 time=44.7s
+Epoch 030/50 loss=0.0378 time=46.5s
+Epoch 031/50 loss=0.0381 time=47.5s
+Epoch 032/50 loss=0.0382 time=51.5s
+Epoch 033/50 loss=0.0381 time=49.8s
+Epoch 034/50 loss=0.0379 time=51.2s
+Epoch 035/50 loss=0.0379 time=52.9s
+Epoch 036/50 loss=0.0378 time=57.2s
+Epoch 037/50 loss=0.0376 time=55.4s
+Epoch 038/50 loss=0.0376 time=58.1s
+Epoch 039/50 loss=0.0378 time=55.9s
+Epoch 040/50 loss=0.0374 time=57.8s
+Epoch 041/50 loss=0.0377 time=56.7s
+Epoch 042/50 loss=0.0376 time=54.5s
+Epoch 043/50 loss=0.0373 time=56.2s
+Epoch 044/50 loss=0.0373 time=53.8s
+Epoch 045/50 loss=0.0375 time=54.6s
+Epoch 046/50 loss=0.0373 time=51.4s
+Epoch 047/50 loss=0.0375 time=50.2s
+Epoch 048/50 loss=0.0371 time=49.6s
+Epoch 049/50 loss=0.0371 time=51.1s
+Epoch 050/50 loss=0.0373 time=53.0s
+FID feature net epoch 1/3: loss=0.2680, acc=91.84%
+FID feature net epoch 2/3: loss=0.0587, acc=98.22%
+FID feature net epoch 3/3: loss=0.0387, acc=98.78%
+FID: 71.4571
